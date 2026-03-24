@@ -46,7 +46,7 @@
             "end": "June 2025"
           },
           "employmentType": "Internship",
-          "description": "Completed a 10-week AI-ML Virtual Internship with a curriculum provided by AWS Academy.\nGained hands-on experience in Artificial Intelligence and Machine Learning concepts.\nSuccessfully completed the program with an 'A' grade.",
+          "description": "Completed a 10-week AI-ML Virtual Internship with a curriculum provided by AWS Academy.\nDeployed a fraudulent review detection system using AWS services like S3 and SageMaker.\nGained hands-on experience in AI/ML concepts and successfully completed with an 'A' grade.",
           "icon": "school",
           "skills": ["AI", "ML", "AWS Academy", "Python"]
         }
@@ -128,7 +128,7 @@
     { "key": "better-auth", "title": "Better Auth", "icon": "Better Auth_light.svg", "darkIcon": "Better Auth_dark.svg", "categories": ["Auth Services", "Library", "Authentication"], "theme": true },
     { "key": "clerk", "title": "Clerk", "icon": "Clerk_light.svg", "darkIcon": "Clerk_dark.svg", "categories": ["Auth Services", "Service", "Authentication"], "theme": true },
     { "key": "jwt", "title": "JWT", "icon": "jwt.svg", "categories": ["Auth Services", "Library", "Authentication"] },
-    { "key": "drizzle", "title": "Drizzle ORM", "icon": "Drizzle ORM_light.svg", "darkIcon": "Drizzle ORM_dark.svg", "categories": ["Library", "ORM"], "theme": true },
+    { "key": "drizzle", "title": "Drizzle ORM", "icon": "Drizzle ORM_dark.svg", "categories": ["Library", "ORM"], "theme": false },
     { "key": "pandas", "title": "Pandas", "icon": "Pandas.svg", "categories": ["Library", "Data Analysis"] },
     { "key": "numpy", "title": "NumPy", "icon": "numpy.svg", "categories": ["Library"] },
     { "key": "scikit-learn", "title": "scikit-learn", "icon": "scikit-learn.svg", "categories": ["Library", "Machine Learning"] },

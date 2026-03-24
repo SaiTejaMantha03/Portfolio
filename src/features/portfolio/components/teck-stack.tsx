@@ -42,8 +42,8 @@ export function TeckStack() {
                 >
                   {tech.theme && darkIconSrc ? (
                     <>
-                      <Image src={darkIconSrc} alt={`${tech.title} icon`} width={18} height={18} className="block dark:hidden shrink-0 w-[18px] h-[18px] object-contain" unoptimized />
-                      <Image src={iconSrc} alt={`${tech.title} icon`} width={18} height={18} className="hidden dark:block shrink-0 w-[18px] h-[18px] object-contain" unoptimized />
+                      <Image src={iconSrc} alt={`${tech.title} icon`} width={18} height={18} className="block dark:hidden shrink-0 w-[18px] h-[18px] object-contain" unoptimized />
+                      <Image src={darkIconSrc} alt={`${tech.title} icon`} width={18} height={18} className="hidden dark:block shrink-0 w-[18px] h-[18px] object-contain" unoptimized />
                     </>
                   ) : (
                     <Image src={iconSrc} alt={`${tech.title} icon`} width={18} height={18} className="shrink-0 w-[18px] h-[18px] object-contain" unoptimized />

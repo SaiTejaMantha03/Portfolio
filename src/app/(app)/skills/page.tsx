@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { TECH_STACK } from "@/features/portfolio/data";
 import { cn } from "@/lib/utils";
+import { Feather } from "@phosphor-icons/react/dist/ssr";
 import { FlickeringGrid } from "@/components/ui/flickering-grid";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -35,7 +36,7 @@ function TechBadge({ title, icon, darkIcon, theme }: { title: string, icon: stri
       {theme && darkIconSrc ? (
         <>
           <Image
-            src={darkIconSrc}
+            src={iconSrc}
             alt={`${title} icon`}
             width={14}
             height={14}
@@ -43,7 +44,7 @@ function TechBadge({ title, icon, darkIcon, theme }: { title: string, icon: stri
             unoptimized
           />
           <Image
-            src={iconSrc}
+            src={darkIconSrc}
             alt={`${title} icon`}
             width={14}
             height={14}
@@ -103,7 +104,7 @@ export default function SkillsPage() {
             <Link href="/" className="relative z-10 cursor-pointer p-1 border border-transparent hover:border-border rounded-[6px] hover:bg-mutedBackground transition-colors duration-300" aria-label="Go back">
               <ArrowLeft className="w-[18px] h-[18px]" />
             </Link>
-            <h1 className="text-xl font-bold leading-tight text-foreground font-sans flex items-baseline gap-3">
+            <h1 className="text-xl font-bold leading-tight text-foreground font-sans flex items-center gap-2">
               Skills
             </h1>
           </div>
@@ -120,14 +121,14 @@ export default function SkillsPage() {
       </div>
 
       {/* Main Content Area */}
-      <div className="mx-auto md:max-w-3xl relative px-6 py-10 pb-32" style={{ backgroundImage: "repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px), repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "1px 100%, 1px 100%", backgroundPosition: "left top, right top", backgroundRepeat: "no-repeat" }}>
+      <div className="mx-auto md:max-w-3xl relative px-6 py-10 pb-10" style={{ backgroundImage: "repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px), repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "1px 100%, 1px 100%", backgroundPosition: "left top, right top", backgroundRepeat: "no-repeat" }}>
         
         <div className="text-muted-foreground leading-loose text-[15px] max-w-2xl mt-4 mb-4">
           <p className="mb-6">
-            My main tech stack is{" "}<TechBadge title="Next.js" icon="nextjs.svg" />{" "}framework with{" "}<TechBadge title="Tailwind CSS" icon="tailwindcss.svg" />{" "}as a styling library. For the database, I use{" "}<TechBadge title="PostgreSQL" icon="postgresql.svg" />{" "}deployed on{" "}<TechBadge title="Supabase" icon="supabase.svg" />{" "}with{" "}<TechBadge title="Drizzle ORM" icon="Drizzle ORM_light.svg" darkIcon="Drizzle ORM_dark.svg" theme={true} />{" "}as an ORM.
+            My main tech stack is{" "}<TechBadge title="Next.js" icon="nextjs.svg" />{" "}framework with{" "}<TechBadge title="Tailwind CSS" icon="tailwindcss.svg" />{" "}as a styling library. For the database, I use{" "}<TechBadge title="PostgreSQL" icon="postgresql.svg" />{" "}deployed on{" "}<TechBadge title="Supabase" icon="supabase.svg" />{" "}with{" "}<TechBadge title="Drizzle ORM" icon="Drizzle ORM_dark.svg" theme={false} />{" "}as an ORM.
           </p>
           <p>
-            For database management and rapid schema exploration, I rely on{" "}<TechBadge title="Drizzle Studio" icon="Drizzle ORM_light.svg" darkIcon="Drizzle ORM_dark.svg" theme={true} />. I focus on building scalable, performant, and type-safe applications that bridge the gap between complex backends and intuitive user interfaces.
+            For database management and rapid schema exploration, I rely on{" "}<TechBadge title="Drizzle Studio" icon="Drizzle ORM_dark.svg" theme={false} />. I focus on building scalable, performant, and type-safe applications that bridge the gap between complex backends and intuitive user interfaces.
           </p>
         </div>
 
@@ -162,7 +163,7 @@ export default function SkillsPage() {
                           {tech.theme && darkIconSrc ? (
                             <>
                               <Image
-                                src={darkIconSrc}
+                                src={iconSrc}
                                 alt={`${tech.title} icon`}
                                 width={16}
                                 height={16}
@@ -170,7 +171,7 @@ export default function SkillsPage() {
                                 unoptimized
                               />
                               <Image
-                                src={iconSrc}
+                                src={darkIconSrc}
                                 alt={`${tech.title} icon`}
                                 width={16}
                                 height={16}
@@ -205,8 +206,6 @@ export default function SkillsPage() {
       
       {/* Bottom Footer Section */}
       <div className="mx-auto md:max-w-3xl relative" style={{ backgroundImage: "repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px), repeating-linear-gradient(to bottom, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "1px 100%, 1px 100%", backgroundPosition: "left top, right top", backgroundRepeat: "no-repeat" }}>
-        <div className="w-full h-px" style={{ backgroundImage: "repeating-linear-gradient(to right, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "100% 1px", backgroundRepeat: "no-repeat" }}></div>
-        <div className="pointer-events-none absolute top-0 left-[-1000px] right-[-1000px] h-px -z-1" style={{ backgroundImage: "repeating-linear-gradient(to right, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "100% 1px", backgroundRepeat: "no-repeat" }}></div>
         {/* Bottom viewport boundary line stretching out */}
         <div className="w-full h-px relative z-10 pointer-events-none" style={{ backgroundImage: "repeating-linear-gradient(to right, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "100% 1px", backgroundRepeat: "no-repeat" }}>
           <div className="pointer-events-none absolute bottom-0 left-[-1000px] right-[-1000px] h-px -z-1" style={{ backgroundImage: "repeating-linear-gradient(to right, var(--dash-border) 0px, var(--dash-border) 6px, transparent 6px, transparent 14px)", backgroundSize: "100% 1px", backgroundRepeat: "no-repeat" }} />
