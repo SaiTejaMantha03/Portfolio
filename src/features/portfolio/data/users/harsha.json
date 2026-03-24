@@ -1,0 +1,188 @@
+{
+  "profile": {
+    "firstName": "Harsha",
+    "lastName": "Vardhan",
+    "displayName": "Harsha Vardhan",
+    "username": "BeyondV0id",
+    "gender": "male",
+    "pronouns": "he/him",
+    "bio": "Full Stack Developer",
+    "flipSentences": [
+      "Full Stack Developer",
+      "Building clean, modern web apps.",
+      "Design, functionality, details."
+    ],
+    "address": "Vizag, India",
+    "phoneNumber": "",
+    "email": "[EMAIL_ADDRESS]",
+    "website": "",
+    "jobTitle": "Full Stack Developer",
+    "jobs": [],
+    "about": "Hi, I’m Harsha Vardhan — a **Full Stack Developer** from **Vizag, India**. I build **clean, modern web applications** using **TypeScript, React.js, and Node.js**, with a strong focus on performance, scalability, and intuitive user experience.\n\nI also work at the intersection of **software and machine learning**, using **Python and data-driven approaches** to create **intelligent features** that solve real problems. My goal is to combine **solid engineering** with **practical AI** to build products that are both impactful and thoughtfully designed.",
+    "avatar": "/images/image.png",
+    "ogImage": "/images/preview-card-dark.png",
+    "timeZone": "Asia/Kolkata",
+    "keywords": [
+      "harsha vardhan",
+      "BeyondV0id",
+      "full stack developer",
+      "pune developer",
+      "ml developer"
+    ],
+    "dateCreated": "2025-01-01",
+    "githubUsername": "BeyondV0id"
+  },
+  "experiences": [
+    {
+      "id": "eduskills-aict-aws",
+      "companyName": "EduSkills (AICTE Virtual Internship)",
+      "companyLogo": "",
+      "positions": [
+        {
+          "id": "ai-ml-intern",
+          "title": "AI-ML Virtual Intern",
+          "employmentPeriod": {
+            "start": "April",
+            "end": "June 2025"
+          },
+          "employmentType": "Internship",
+          "description": "Completed a 10-week AI-ML Virtual Internship with a curriculum provided by AWS Academy.\nDeployed a fraudulent review detection system using AWS services like S3 and SageMaker.\nGained hands-on experience in AI/ML concepts and successfully completed with an 'A' grade.",
+          "icon": "school",
+          "skills": ["AI", "ML", "AWS Academy", "Python"]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "price-pulse",
+      "title": "Price Pulse",
+      "image": "",
+      "pinned": true,
+      "skills": ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "shadcn/ui"],
+      "description": "Comprehensive price tracker that monitors product changes in real-time with advanced search and efficient data handling.",
+      "links": [
+        { "type": "github", "href": "https://github.com/BeyondV0id/price-pulse" }
+      ],
+      "isExpanded": true
+    },
+    {
+      "id": "oss-trends-scraper",
+      "title": "OSS Trends Scraper",
+      "image": "",
+      "pinned": false,
+      "skills": ["Python", "BeautifulSoup", "Docker", "GitHub Actions", "PostgreSQL"],
+      "description": "Dockerized Python scraper for GitHub Trending repositories with webhook metadata syncing.",
+      "links": [
+        { "type": "github", "href": "https://github.com/BeyondV0id/oss-trends-scraper" }
+      ],
+      "isExpanded": true
+    },
+    {
+      "id": "sourcesuf-backend",
+      "title": "SourceSurf",
+      "image": "",
+      "pinned": false,
+      "skills": ["TypeScript", "Node.js", "Express", "PostgreSQL"],
+      "description": "Centralized discovery platform for high-quality open-source projects with real-time metric tracking and GSoC history filtering.",
+      "links": [
+        { "type": "github", "href": "https://github.com/BeyondV0id/source-surf" }
+      ],
+      "isExpanded": true
+    },
+    {
+      "id": "drizzle-auth-api",
+      "title": "Drizzle Auth API",
+      "image": "",
+      "pinned": false,
+      "skills": ["Express", "TypeScript", "Drizzle ORM", "PostgreSQL"],
+      "description": "Production-ready authentication template powered by Express, TypeScript, and Drizzle ORM.",
+      "links": [
+        { "type": "github", "href": "https://github.com/BeyondV0id/drizzle-auth-api" }
+      ],
+      "isExpanded": true
+    }
+  ],
+  "techStack": [
+    { "key": "typescript", "title": "TypeScript", "icon": "typescript.svg", "categories": ["Language"] },
+    { "key": "js", "title": "JavaScript", "icon": "javascript.svg", "categories": ["Language"] },
+    { "key": "golang", "title": "Golang", "icon": "golang.svg", "categories": ["Language"] },
+    { "key": "py", "title": "Python", "icon": "python.svg", "categories": ["Language"] },
+    { "key": "next", "title": "Next.js", "icon": "nextjs.svg", "darkIcon": "nextjs-light.svg", "categories": ["Framework"], "theme": true },
+    { "key": "react", "title": "React", "icon": "react.svg", "categories": ["Library", "UI Library"] },
+    { "key": "nodejs", "title": "Node.js", "icon": "nodejs.svg", "categories": ["Core"] },
+    { "key": "expressjs", "title": "Express.js", "icon": "express.png", "categories": ["Framework"] },
+    { "key": "trpc", "title": "tRPC", "icon": "trpc.svg", "categories": ["Framework"] },
+    { "key": "fastapi", "title": "FastAPI", "icon": "fastapi.svg", "categories": ["Framework"] },
+    { "key": "flask", "title": "Flask", "icon": "Flask.svg", "categories": ["Framework"] },
+    { "key": "streamlit", "title": "Streamlit", "icon": "Streamlit.svg", "categories": ["Framework"] },
+    { "key": "mongodb", "title": "MongoDB", "icon": "MongoDB_light.svg", "darkIcon": "MongoDB_dark.svg", "categories": ["Database"], "theme": true },
+    { "key": "postgresql", "title": "PostgreSQL", "icon": "postgresql.svg", "categories": ["Database"] },
+    { "key": "mysql", "title": "MySQL", "icon": "mysql.svg", "categories": ["Database"] },
+    { "key": "redis", "title": "Redis", "icon": "redis.svg", "categories": ["Database"] },
+    { "key": "neon", "title": "Neon", "icon": "neon.svg", "categories": ["Development Tools", "Database"] },
+    { "key": "supabase", "title": "Supabase", "icon": "supabase.svg", "categories": ["Development Tools", "Database", "BaaS"] },
+    { "key": "tailwindcss", "title": "Tailwind CSS", "icon": "tailwindcss.svg", "categories": ["Library", "UI Library"] },
+    { "key": "shadcn-ui", "title": "shadcn/ui", "icon": "shadcn.svg", "darkIcon": "shadcn-light.svg", "categories": ["Library", "Component Library"], "theme": true },
+    { "key": "motion", "title": "Motion", "icon": "motion.svg", "categories": ["Library", "Animation"] },
+    { "key": "better-auth", "title": "Better Auth", "icon": "Better Auth_light.svg", "darkIcon": "Better Auth_dark.svg", "categories": ["Auth Services", "Library", "Authentication"], "theme": true },
+    { "key": "clerk", "title": "Clerk", "icon": "Clerk_light.svg", "darkIcon": "Clerk_dark.svg", "categories": ["Auth Services", "Service", "Authentication"], "theme": true },
+    { "key": "jwt", "title": "JWT", "icon": "jwt.svg", "categories": ["Auth Services", "Library", "Authentication"] },
+    { "key": "drizzle", "title": "Drizzle ORM", "icon": "Drizzle ORM_dark.svg", "categories": ["Library", "ORM"], "theme": false },
+    { "key": "pandas", "title": "Pandas", "icon": "Pandas.svg", "categories": ["Library", "Data Analysis"] },
+    { "key": "numpy", "title": "NumPy", "icon": "numpy.svg", "categories": ["Library"] },
+    { "key": "scikit-learn", "title": "scikit-learn", "icon": "scikit-learn.svg", "categories": ["Library", "Machine Learning"] },
+    { "key": "matplotlib", "title": "Matplotlib", "icon": "Matplotlib.svg", "categories": ["Library"] },
+    { "key": "seaborn", "title": "Seaborn", "icon": "seaborn.svg", "categories": ["Library"] },
+    { "key": "tableau", "title": "Tableau", "icon": "tableau.svg", "categories": ["Library"] },
+    { "key": "git", "title": "Git", "icon": "git.svg", "categories": ["Core"] },
+    { "key": "docker", "title": "Docker", "icon": "docker.svg", "categories": ["Core"] },
+    { "key": "vercel", "title": "Vercel", "icon": "vercel.png", "darkIcon": "vercel-light.svg", "categories": ["Cloud Hosting", "Deployment"], "theme": true },
+    { "key": "aws", "title": "AWS", "icon": "aws.png", "darkIcon": "aws-light.png", "categories": ["Cloud Hosting", "Deployment"], "theme": true },
+    { "key": "render", "title": "Render", "icon": "Render_light.svg", "darkIcon": "Render_dark.svg", "categories": ["Cloud Hosting", "Deployment"], "theme": true },
+    { "key": "postman", "title": "Postman", "icon": "postman.svg", "categories": ["Development Tools"] },
+    { "key": "bun", "title": "Bun", "icon": "bun.svg", "categories": ["Development Tools", "Runtime"] },
+    { "key": "vite", "title": "Vite", "icon": "vite.svg", "categories": ["Build Tool"] },
+    { "key": "turborepo", "title": "Turborepo", "icon": "Turborepo_light.svg", "darkIcon": "Turborepo_dark.svg", "categories": ["Build Tool"], "theme": true },
+    { "key": "neovim", "title": "Neovim", "icon": "neovim.svg", "categories": ["Development Tools"] },
+    { "key": "cursor", "title": "Cursor", "icon": "cursor.svg", "categories": ["Development Tools"] },
+    { "key": "figma", "title": "Figma", "icon": "figma.svg", "categories": ["Design Tool"] },
+    { "key": "n8n", "title": "n8n", "icon": "n8n.svg", "categories": ["Automation"] },
+    { "key": "notion", "title": "Notion", "icon": "notion.svg", "categories": ["Productivity"] },
+    { "key": "obsidian", "title": "Obsidian", "icon": "obsidian.svg", "categories": ["Productivity"] },
+    { "key": "dotenv", "title": "Dotenv", "icon": "dotenv.svg", "categories": ["Library"] }
+  ],
+  "socialLinks": [
+    {
+      "icon": "github.webp",
+      "title": "GitHub",
+      "description": "BeyondV0id",
+      "href": "https://github.com/BeyondV0id"
+    },
+    {
+      "icon": "linkedin.webp",
+      "title": "LinkedIn",
+      "description": "g-harsha-vardhan",
+      "href": "https://www.linkedin.com/in/g-harsha-vardhan"
+    },
+    {
+      "icon": "leetcode.webp",
+      "title": "LeetCode",
+      "description": "BeyondVoid",
+      "href": "https://leetcode.com/BeyondVoid"
+    },
+    {
+      "icon": "x.svg",
+      "title": "X (Twitter)",
+      "description": "beyondV0ID",
+      "href": "https://x.com/beyondV0ID"
+    },
+    {
+      "icon": "daily.dev_light.svg",
+      "title": "daily.dev",
+      "description": "BeyondV0id",
+      "href": "https://app.daily.dev/BeyondV0id"
+    }
+  ],
+  "ossContributions": []
+}

@@ -2,6 +2,7 @@ import { Suspense, useMemo } from "react";
 import Image from "next/image";
 import { MailIcon } from "lucide-react";
 
+import { Container } from "@/components/container";
 import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
 import { USER, SOCIAL_LINKS } from "@/features/portfolio/data";
@@ -118,17 +119,19 @@ export function Hero() {
 
         <div className="flex flex-1 flex-col justify-end py-0.5">
           {/* Bottom row: name and title */}
-          <div>
-            <h1 
-              className="font-normal tracking-tight text-foreground sm:text-4xl text-3xl" 
-              style={{ fontFamily: 'var(--font-serif)' }}
-            >
-              {USER.displayName}
-            </h1>
-            <p className="mt-1 text-sm tracking-tight text-muted-foreground">
-              {USER.jobTitle}
-            </p>
-          </div>
+          <Container delay={0.1}>
+            <div>
+              <h1 
+                className="font-normal tracking-tight text-foreground sm:text-4xl text-3xl" 
+                style={{ fontFamily: 'var(--font-serif)' }}
+              >
+                {USER.displayName}
+              </h1>
+              <p className="mt-1 text-sm tracking-tight text-muted-foreground">
+                {USER.jobTitle}
+              </p>
+            </div>
+          </Container>
         </div>
 
         {/* Right column: Theme Toggle & Views */}
@@ -138,50 +141,56 @@ export function Hero() {
       </Panel>
 
       {/* About Section */}
-      <div className="px-6 pt-6 pb-2 font-sans text-sm leading-relaxed text-muted-foreground [&>p]:mb-4">
-        <Markdown>{USER.about}</Markdown>
-      </div>
+      <Container delay={0.2}>
+        <div className="px-6 pt-6 pb-2 font-sans text-sm leading-relaxed text-muted-foreground [&>p]:mb-4">
+          <Markdown>{USER.about}</Markdown>
+        </div>
+      </Container>
 
       {/* Buttons */}
-      <div className="flex flex-wrap items-center gap-3 px-6 pt-2 pb-6">
-        <Button
-          variant="outline"
-          size="sm"
-          className="h-9 rounded-lg border border-zinc-200 bg-white text-zinc-900 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
-          asChild
-        >
-          <a
-            href={
-              USER.email
-                ? `mailto:${Buffer.from(USER.email, "base64").toString("utf8")}`
-                : "#"
-            }
+      <Container delay={0.3}>
+        <div className="flex flex-wrap items-center gap-3 px-6 pt-2 pb-6">
+          <Button
+            variant="outline"
+            size="sm"
+            className="h-9 rounded-lg border border-zinc-200 bg-white text-zinc-900 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+            asChild
           >
-            <MailIcon className="mr-2 size-4" /> Send an email
-          </a>
-        </Button>
-      </div>
+            <a
+              href={
+                USER.email
+                  ? `mailto:${Buffer.from(USER.email, "base64").toString("utf8")}`
+                  : "#"
+              }
+            >
+              <MailIcon className="mr-2 size-4" /> Send an email
+            </a>
+          </Button>
+        </div>
+      </Container>
 
       {/* Social Links */}
-      <div className="px-6 pt-2 pb-2">
-        <p className="mb-4 font-mono text-sm text-foreground">
-          Here are my <span className="font-bold">socials</span>
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {SOCIAL_LINKS.map((link) => (
-            <a
-              key={link.title}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
-            >
-              {getSocialIcon(link.title)}
-              {link.title === "X (Formerly Twitter)" ? "Twitter" : link.title}
-            </a>
-          ))}
+      <Container delay={0.4}>
+        <div className="px-6 pt-2 pb-2">
+          <p className="mb-4 font-mono text-sm text-foreground">
+            Here are my <span className="font-bold">socials</span>
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {SOCIAL_LINKS.map((link) => (
+              <a
+                key={link.title}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              >
+                {getSocialIcon(link.title)}
+                {link.title === "X (Formerly Twitter)" ? "Twitter" : link.title}
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
+      </Container>
 
       {/* Github Contributions */}
       <div className="w-full px-6 pb-6">

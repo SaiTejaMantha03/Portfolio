@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     gender: USER.gender,
     images: [
       {
-        url: "/images/harshitha.png",
+        url: USER.avatar,
         width: 1200,
         height: 630,
         alt: `${USER.displayName} - Portfolio`,
@@ -72,12 +72,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     creator: "@dakshydv_", // Twitter username
-    images: ["/images/harshitha.png"],
+    images: [USER.avatar],
   },
   icons: {
     icon: [
       {
-        url: "/images/harshitha.png",
+        url: USER.avatar,
       },
     ],
   },

@@ -3,6 +3,7 @@ import type { ProfilePage as PageSchema, WithContext } from "schema-dts";
 
 
 import { Experiences } from "@/features/portfolio/components/experiences";
+import { Container } from "@/components/container";
 import { Hero } from "@/features/portfolio/components/hero";
 import { Projects } from "@/features/portfolio/components/projects";
 import { TeckStack } from "@/features/portfolio/components/teck-stack";
@@ -23,14 +24,19 @@ export default function Page() {
         <Hero />
         <Separator />
 
-        <Projects />
+        <Container delay={0.5}>
+          <Projects />
+        </Container>
         <Separator />
 
-
-        <TeckStack />
+        <Container delay={0.6}>
+          <TeckStack />
+        </Container>
         <Separator />
 
-        <Experiences />
+        <Container delay={0.7}>
+          <Experiences />
+        </Container>
         <Separator />
 
 

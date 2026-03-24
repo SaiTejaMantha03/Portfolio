@@ -15,7 +15,7 @@ import type { TechStack } from "../types/tech-stack";
 import type { User } from "../types/user";
 
 // --- Change this value to switch persona ---
-const ACTIVE_PROFILE = "harshitha";
+const ACTIVE_PROFILE = "harsha";
 // -------------------------------------------
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
