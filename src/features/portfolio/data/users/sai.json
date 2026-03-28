@@ -18,7 +18,7 @@
     "website": "https://saiwith.tech",
     "jobTitle": "MERN Stack Intern",
     "jobs": [],
-    "about": "I am a **Bachelor in Computer Science** student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** with a CGPA of **8.65/10.0**. Currently a **MERN Stack Intern** at **Vrinchisala Labs (IIT Ropar)**, focusing on architecting and deploying scalable web applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
+    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **MERN Stack Intern** at **Vrinchisala Labs (IIT Ropar)**, focusing on architecting and deploying scalable web applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
     "avatar": "/images/image.jpg",
     "ogImage": "/images/preview-card-dark.png",
     "timeZone": "Asia/Kolkata",
@@ -48,7 +48,13 @@
           "employmentType": "Internship",
           "description": "Architected and deployed scalable web applications using the MERN stack (MongoDB, Express.js, Angular, and Node.js). Developed and optimized secure REST APIs using Node.js and Express to handle asynchronous data requests and improve application response times.",
           "icon": "code",
-          "skills": ["MongoDB", "Express.js", "Angular", "Node.js", "REST APIs"]
+          "skills": [
+            "MongoDB",
+            "Express.js",
+            "Angular",
+            "Node.js",
+            "REST APIs"
+          ]
         }
       ]
     },
@@ -67,7 +73,13 @@
           "employmentType": "Internship",
           "description": "Created AWS buckets and instances like EC2. Built models and worked with AWS tools like AWS SageMaker. Gained experience covering the entire machine learning lifecycle, including data preprocessing, model training, evaluation, and deployment within a cloud environment.",
           "icon": "school",
-          "skills": ["AWS", "EC2", "SageMaker", "ML Pipeline", "Python"]
+          "skills": [
+            "AWS",
+            "EC2",
+            "SageMaker",
+            "ML Pipeline",
+            "Python"
+          ]
         }
       ]
     }
@@ -80,7 +92,12 @@
       "pinned": true,
       "status": "live",
       "category": "Full-Stack App",
-      "skills": ["Django", "PostgreSQL", "Bootstrap 5", "JavaScript"],
+      "skills": [
+        "Django",
+        "PostgreSQL",
+        "Bootstrap 5",
+        "JavaScript"
+      ],
       "description": "Architected a full-stack classifieds platform with a multi-category system for properties, vehicles, and electronics with advanced search and filtering. Developed a responsive front-end and custom admin dashboard. Engineered secure RESTful API endpoints and integrated a view-counting analytics system.",
       "liveLink": "https://property-hub-gjav.onrender.com/",
       "githubLink": "",
@@ -97,21 +114,108 @@
     }
   ],
   "techStack": [
-    { "key": "python", "title": "Python", "icon": "python.svg", "categories": ["Programming"] },
-    { "key": "javascript", "title": "JavaScript", "icon": "javascript.svg", "categories": ["Programming"] },
-    { "key": "typescript", "title": "TypeScript", "icon": "typescript.svg", "categories": ["Programming"] },
-    { "key": "flask", "title": "Flask", "icon": "Flask.svg", "categories": ["Frameworks"] },
-    { "key": "nodejs", "title": "Node.js", "icon": "nodejs.svg", "categories": ["Frameworks"] },
-    { "key": "react", "title": "React", "icon": "react.svg", "categories": ["Frameworks"] },
-    { "key": "scikit-learn", "title": "Scikit-learn", "icon": "scikit-learn.svg", "categories": ["Frameworks"] },
-    { "key": "postgresql", "title": "PostgreSQL", "icon": "postgresql.svg", "categories": ["Tools"] },
-    { "key": "mongodb", "title": "MongoDB", "icon": "mongodb.svg", "categories": ["Tools"] },
-    { "key": "git", "title": "Git", "icon": "git.svg", "categories": ["Tools"] },
-    { "key": "postman", "title": "Postman", "icon": "postman.svg", "categories": ["Tools"] }
+    {
+      "key": "python",
+      "title": "Python",
+      "icon": "python.svg",
+      "categories": [
+        "Programming"
+      ]
+    },
+    {
+      "key": "javascript",
+      "title": "JavaScript",
+      "icon": "javascript.svg",
+      "categories": [
+        "Programming"
+      ]
+    },
+    {
+      "key": "typescript",
+      "title": "TypeScript",
+      "icon": "typescript.svg",
+      "categories": [
+        "Programming"
+      ]
+    },
+    {
+      "key": "flask",
+      "title": "Flask",
+      "icon": "Flask.svg",
+      "categories": [
+        "Frameworks"
+      ]
+    },
+    {
+      "key": "nodejs",
+      "title": "Node.js",
+      "icon": "nodejs.svg",
+      "categories": [
+        "Frameworks"
+      ]
+    },
+    {
+      "key": "react",
+      "title": "React",
+      "icon": "react.svg",
+      "categories": [
+        "Frameworks"
+      ]
+    },
+    {
+      "key": "scikit-learn",
+      "title": "Scikit-learn",
+      "icon": "scikit-learn.svg",
+      "categories": [
+        "Frameworks"
+      ]
+    },
+    {
+      "key": "postgresql",
+      "title": "PostgreSQL",
+      "icon": "postgresql.svg",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "key": "mongodb",
+      "title": "MongoDB",
+      "icon": "mongodb.svg",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "key": "git",
+      "title": "Git",
+      "icon": "git.svg",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "key": "postman",
+      "title": "Postman",
+      "icon": "postman.svg",
+      "categories": [
+        "Tools"
+      ]
+    }
   ],
   "socialLinks": [
-    { "icon": "github.webp", "title": "GitHub", "description": "SaiTejaMantha03", "href": "https://github.com/SaiTejaMantha03" },
-    { "icon": "linkedin.webp", "title": "LinkedIn", "description": "sai-teja-mantha", "href": "https://www.linkedin.com/in/sai-teja-mantha-76a301287/" }
+    {
+      "icon": "github.webp",
+      "title": "GitHub",
+      "description": "SaiTejaMantha03",
+      "href": "https://github.com/SaiTejaMantha03"
+    },
+    {
+      "icon": "linkedin.webp",
+      "title": "LinkedIn",
+      "description": "sai-teja-mantha",
+      "href": "https://www.linkedin.com/in/sai-teja-mantha-76a301287/"
+    }
   ],
   "publications": [
     {
@@ -120,7 +224,14 @@
       "year": "2025",
       "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173644065.34354272/v1",
       "description": "This paper presents a comparative analysis of machine learning algorithms — including Naive Bayes, SVM, Logistic Regression, and Random Forest — combined with text vectorization techniques such as TF-IDF and Count Vectorizer. The study evaluates their effectiveness in detecting spam messages across benchmark datasets, identifying optimal model-vectorizer pairings.",
-      "keywords": ["Machine Learning", "Spam Detection", "NLP", "TF-IDF", "SVM", "Naive Bayes"]
+      "keywords": [
+        "Machine Learning",
+        "Spam Detection",
+        "NLP",
+        "TF-IDF",
+        "SVM",
+        "Naive Bayes"
+      ]
     },
     {
       "title": "Comparative Study of Machine Learning Algorithms for Breast Cancer Diagnosis",
@@ -128,7 +239,36 @@
       "year": "2025",
       "url": "https://ijsdr.org/viewpaperforall.php?paper=IJSDR2508152",
       "description": "An in-depth comparison of supervised machine learning algorithms — including Decision Trees, Random Forest, KNN, and Logistic Regression — applied to breast cancer classification using the Wisconsin Diagnostic Breast Cancer (WDBC) dataset. The paper benchmarks accuracy, precision, recall, and F1-score to identify the most reliable model for clinical decision support.",
-      "keywords": ["Machine Learning", "Breast Cancer", "Classification", "Healthcare AI", "Python", "scikit-learn"]
+      "keywords": [
+        "Machine Learning",
+        "Breast Cancer",
+        "Classification",
+        "Healthcare AI",
+        "Python",
+        "scikit-learn"
+      ]
+    }
+  ],
+  "cpProfiles": [
+    {
+      "platform": "LeetCode",
+      "username": "MST03",
+      "url": "https://leetcode.com/u/MST03/",
+      "color": "#FFA116",
+      "solved": 138,
+      "easySolved": 58,
+      "mediumSolved": 69,
+      "hardSolved": 11,
+      "maxRating": 1631
+    },
+    {
+      "platform": "CodeChef",
+      "username": "mst03",
+      "url": "https://www.codechef.com/users/mst03",
+      "color": "#5B4638",
+      "rating": 1067,
+      "stars": 1,
+      "maxRating": 1067
     }
   ]
 }

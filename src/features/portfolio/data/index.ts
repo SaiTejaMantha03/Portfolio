@@ -14,6 +14,7 @@ import type { Publication } from "../types/publications";
 import type { SocialLink } from "../types/social-links";
 import type { TechStack } from "../types/tech-stack";
 import type { User } from "../types/user";
+import type { CpProfile } from "../types/cp-profiles";
 
 // --- Change this value to switch persona ---
 const ACTIVE_PROFILE = "sai";
@@ -30,6 +31,7 @@ export const SOCIAL_LINKS: SocialLink[] = profileData.socialLinks;
 export const OSSContributions: OssContributions[] =
   profileData.ossContributions;
 export const PUBLICATIONS: Publication[] = profileData.publications ?? [];
+export const CP_PROFILES: CpProfile[] = profileData.cpProfiles ?? [];
 
 /** The GitHub username for fetching contributions */
 export const GITHUB_USERNAME: string =

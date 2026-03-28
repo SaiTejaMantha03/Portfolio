@@ -3,6 +3,7 @@ import type { ProfilePage as PageSchema, WithContext } from "schema-dts";
 
 import { Experiences } from "@/features/portfolio/components/experiences";
 import { ResearchPapers } from "@/features/portfolio/components/research-papers";
+import { CpProfiles } from "@/features/portfolio/components/cp-profiles";
 import { Container } from "@/components/container";
 import { Hero } from "@/features/portfolio/components/hero";
 import { Projects } from "@/features/portfolio/components/projects";
@@ -41,6 +42,11 @@ export default function Page() {
 
         <Container delay={0.8}>
           <ResearchPapers />
+        </Container>
+        <Separator />
+
+        <Container delay={0.9}>
+          <CpProfiles />
         </Container>
         <Separator />
 
