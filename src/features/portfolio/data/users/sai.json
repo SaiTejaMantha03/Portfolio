@@ -6,9 +6,8 @@
     "username": "SaiTejaMantha03",
     "gender": "male",
     "pronouns": "he/him",
-    "bio": "MERN Stack Intern",
+    "bio": "ML and AI Developer",
     "flipSentences": [
-      "MERN Stack Intern",
       "AI ML Intern",
       "Bachelor in Computer Science"
     ],
@@ -16,16 +15,15 @@
     "phoneNumber": "+91 9182189891",
     "email": "mst4offl@gmail.com",
     "website": "https://saiwith.tech",
-    "jobTitle": "MERN Stack Intern",
+    "jobTitle": "ML and AI Developer",
     "jobs": [],
-    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **MERN Stack Intern** at **Vrinchisala Labs (IIT Ropar)**, focusing on architecting and deploying scalable web applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
+    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently focusing on architecting and deploying scalable web applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
     "avatar": "/images/image.jpg",
     "ogImage": "/images/preview-card-dark.png",
     "timeZone": "Asia/Kolkata",
     "keywords": [
       "Sai Teja Mantha",
       "SaiTejaMantha03",
-      "MERN Stack",
       "AI ML",
       "Computer Science"
     ],
