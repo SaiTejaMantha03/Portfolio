@@ -47,11 +47,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "Daksh",
+      name: USER.displayName,
       url: SITE_INFO.url,
     },
   ],
-  creator: "Daksh",
+  creator: USER.displayName,
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@dakshydv_", // Twitter username
+    creator: `@${USER.username}`,
     images: [USER.avatar],
   },
   icons: {

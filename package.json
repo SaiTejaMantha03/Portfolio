@@ -1,20 +1,20 @@
 {
-  "name": "harshitha-portfolio",
+  "name": "mst-portfolio",
   "version": "0.1.0",
   "description": "A minimal, pixel-perfect dev portfolio and blog.",
-  "homepage": "https://github.com/SreeHarshitha-12/Portfolio",
+  "homepage": "https://mst-dev.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "harshitha"
+    "name": "Sai Teja Mantha"
   },
   "contributors": [
     {
-      "name": "harshitha"
+      "name": "Sai Teja Mantha"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SreeHarshitha-12/Portfolio.git"
+    "url": "git+https://github.com/SaiTejaMantha03/Portfolio.git"
   },
   "scripts": {
     "dev": "next dev -p 3000",

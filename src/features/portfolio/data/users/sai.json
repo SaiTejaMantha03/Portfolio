@@ -6,9 +6,8 @@
     "username": "SaiTejaMantha03",
     "gender": "male",
     "pronouns": "he/him",
-    "bio": "MERN Stack Intern",
+    "bio": "ML Intern | Computer Science Student | Researcher | Tech Enthusiast",
     "flipSentences": [
-      "MERN Stack Intern",
       "AI ML Intern",
       "Bachelor in Computer Science"
     ],
@@ -16,16 +15,15 @@
     "phoneNumber": "+91 9182189891",
     "email": "mst4offl@gmail.com",
     "website": "https://saiwith.tech",
-    "jobTitle": "MERN Stack Intern",
+    "jobTitle": "ML Intern",
     "jobs": [],
-    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **MERN Stack Intern** at **Vrinchisala Labs (IIT Ropar)**, focusing on architecting and deploying scalable web applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
+    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **ML Intern** at **Eduskills**, focusing on machine learning and data science applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
     "avatar": "/images/image.jpg",
     "ogImage": "/images/preview-card-dark.png",
     "timeZone": "Asia/Kolkata",
     "keywords": [
       "Sai Teja Mantha",
       "SaiTejaMantha03",
-      "MERN Stack",
       "AI ML",
       "Computer Science"
     ],
@@ -61,10 +59,68 @@
   ],
   "projects": [
     {
+      "id": "namo-deadlock-navigation",
+      "title": "NAMO Deadlock Detection & RL Navigation Assistance",
+      "image": "/images/namo.png",
+      "pinned": true,
+      "status": "dev",
+      "category": "Research / RL",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "MAPPO",
+        "Reinforcement Learning",
+        "Simulation"
+      ],
+      "description": "Developing MAPPO-based Reinforcement Learning policies for deadlock-aware navigation and obstacle interaction in NAMO environments. Implements uncertainty-aware action evaluation and simulation-driven policy training.",
+      "liveLink": "",
+      "githubLink": "",
+      "isExpanded": true
+    },
+    {
+      "id": "spam-classification",
+      "title": "Spam Classification & Vectorization Analysis",
+      "image": "/images/spam-classification.png",
+      "pinned": true,
+      "status": "completed",
+      "category": "Machine Learning",
+      "skills": [
+        "Python",
+        "scikit-learn",
+        "TF-IDF",
+        "Random Forest",
+        "XGBoost",
+        "NLP"
+      ],
+      "description": "Built a spam classification pipeline using merged SMS/email datasets (~100k samples). Evaluated TF-IDF vectorization with Random Forest, XGBoost, SGDClassifier, and Logistic Regression; achieved ~94.3% accuracy and 0.93 F1-score.",
+      "liveLink": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173644065.34354272/v1",
+      "githubLink": "",
+      "isExpanded": false
+    },
+    {
+      "id": "stroke-prediction",
+      "title": "Stroke Prediction using Classical ML Models",
+      "image": "/images/stroke-prediction.png",
+      "pinned": false,
+      "status": "completed",
+      "category": "Machine Learning",
+      "skills": [
+        "Python",
+        "scikit-learn",
+        "XGBoost",
+        "SMOTE",
+        "Model Evaluation"
+      ],
+      "description": "Comparative analysis of supervised ML algorithms for stroke prediction on imbalanced healthcare datasets. Used GridSearchCV, SMOTE balancing, and 5-fold CV; achieved 94.69% test accuracy with XGBoost.",
+      "liveLink": "https://ijsdr.org/viewpaperforall.php?paper=IJSDR2508152",
+      "githubLink": "",
+      "isExpanded": false
+    },
+    {
       "id": "property-hub",
       "title": "Property Hub",
       "image": "/images/property-hub.png",
-      "pinned": true,
+      "pinned": false,
       "status": "live",
       "category": "Full-Stack App",
       "skills": [
@@ -73,10 +129,10 @@
         "Bootstrap 5",
         "JavaScript"
       ],
-      "description": "Architected a full-stack classifieds platform with a multi-category system for properties, vehicles, and electronics with advanced search and filtering. Developed a responsive front-end and custom admin dashboard. Engineered secure RESTful API endpoints and integrated a view-counting analytics system.",
+      "description": "Architected a full-stack classifieds platform with advanced search, responsive frontend, custom admin dashboard, secure RESTful APIs, and view-count analytics.",
       "liveLink": "https://property-hub-gjav.onrender.com/",
       "githubLink": "",
-      "isExpanded": true
+      "isExpanded": false
     }
   ],
   "education": [

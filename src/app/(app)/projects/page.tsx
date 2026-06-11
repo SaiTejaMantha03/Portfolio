@@ -105,7 +105,7 @@ export default function ProjectsPage() {
               className="group text-strong transition-colors select-none font-medium duration-300 inline-flex items-center" 
               target="_blank" 
               rel="noopener noreferrer" 
-              href={SOCIAL_LINKS.find(s => s.title.toLowerCase() === "github")?.href ?? "https://github.com/SreeHarshitha-12"}
+              href={SOCIAL_LINKS.find(s => s.title.toLowerCase() === "github")?.href ?? `https://github.com/${PROJECTS[0]?.githubLink ? PROJECTS[0].githubLink.split('/').slice(0,2).join('/') : "SaiTejaMantha03"}`}
             >
               <span className="relative">Github
                 <span className="absolute left-0 bottom-0 w-full h-px bg-title origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out"></span>

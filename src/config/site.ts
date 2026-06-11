@@ -3,8 +3,8 @@ import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: "https://dakshyadav.com",
-  ogImage: "https://www.dakshyadav.com/images/preview-card-dark.png", // Changed from USER.ogImage
+  url: "https://mst-dev.vercel.app",
+  ogImage: USER.ogImage ?? "/images/preview-card-dark.png",
   description: USER.bio,
   keywords: USER.keywords,
 };
@@ -21,16 +21,16 @@ export const MAIN_NAV: NavItem[] = [
   },
 ];
 
-export const GITHUB_USERNAME = "dakshydv";
-export const SOURCE_CODE_GITHUB_REPO = "dakshydv/portfolio";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/dakshydv/portfolio";
+export const GITHUB_USERNAME = _GH_USER ?? USER.githubUsername ?? "";
+export const SOURCE_CODE_GITHUB_REPO = `${GITHUB_USERNAME}/Portfolio`;
+export const SOURCE_CODE_GITHUB_URL = `https://github.com/${GITHUB_USERNAME}/Portfolio`;
 
 export const UTM_PARAMS = {
-  utm_source: "dakshyadav.com",
+  utm_source: "mst-dev.vercel.app",
   utm_medium: "referral",
   utm_campaign: "portfolio",
 };
 
 export const siteConfig = {
-  ogImage: "https://www.dakshyadav.com/images/preview-card-dark.png", // Changed to absolute URL
+  ogImage: USER.ogImage ?? "/images/preview-card-dark.png",
 };
