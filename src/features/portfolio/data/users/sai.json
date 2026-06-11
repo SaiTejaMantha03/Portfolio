@@ -14,10 +14,10 @@
     "address": "Visakhapatnam",
     "phoneNumber": "+91 9182189891",
     "email": "mst4offl@gmail.com",
-    "website": "https://saiwith.tech",
+    "website": "https://mst-dev.vercel.app",
     "jobTitle": "ML Intern",
     "jobs": [],
-    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **ML Intern** at **Eduskills**, focusing on machine learning and data science applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
+    "about": "I am a student at **Gayatri Vidya Parishad College of Engineering (Autonomous)** in **Computer Science** with a CGPA of **8.65/10.0**. Currently a **ML Intern** at **NITT**, focusing on machine learning and data science applications. Also experienced as an **AI ML Intern** at **Eduskills**, working with **AWS SageMaker** and cloud infrastructure.",
     "avatar": "/images/image.jpg",
     "ogImage": "/images/preview-card-dark.png",
     "timeZone": "Asia/Kolkata",
@@ -31,6 +31,32 @@
     "githubUsername": "SaiTejaMantha03"
   },
   "experiences": [
+    {
+      "id": "nitt-research-intern",
+      "companyName": "National Institute of Technology Tiruchirappalli (NITT)",
+      "companyLogo": "/images/nitt.png",
+      "positions": [
+        {
+          "id": "research-intern-nitt",
+          "title": "Research Intern",
+          "employmentPeriod": {
+            "start": "May 2026",
+            "end": "Present"
+          },
+          "employmentType": "Research Internship",
+          "description": "Developing MAPPO-based Reinforcement Learning policies for deadlock-aware navigation and obstacle interaction in Navigation Among Movable Obstacles (NAMO) environments. Implementing uncertainty-aware action evaluation and simulation-driven policy learning for adaptive path planning in dynamic maps. Benchmarking multi-agent RL performance and optimizing policy training pipelines for improved simulation stability and execution efficiency.",
+          "icon": "work",
+          "skills": [
+            "Reinforcement Learning",
+            "MAPPO",
+            "PyTorch",
+            "Multi-Agent RL",
+            "Simulation",
+            "Research"
+          ]
+        }
+      ]
+    },
     {
       "id": "eduskills-intern",
       "companyName": "Eduskills",
@@ -74,7 +100,7 @@
       ],
       "description": "Developing MAPPO-based Reinforcement Learning policies for deadlock-aware navigation and obstacle interaction in NAMO environments. Implements uncertainty-aware action evaluation and simulation-driven policy training.",
       "liveLink": "",
-      "githubLink": "",
+      "githubLink": "https://github.com/SaiTejaMantha03/namo",
       "isExpanded": true
     },
     {
@@ -94,7 +120,7 @@
       ],
       "description": "Built a spam classification pipeline using merged SMS/email datasets (~100k samples). Evaluated TF-IDF vectorization with Random Forest, XGBoost, SGDClassifier, and Logistic Regression; achieved ~94.3% accuracy and 0.93 F1-score.",
       "liveLink": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173644065.34354272/v1",
-      "githubLink": "",
+      "githubLink": "https://github.com/SaiTejaMantha03/Spam-Classifier",
       "isExpanded": false
     },
     {
@@ -112,8 +138,8 @@
         "Model Evaluation"
       ],
       "description": "Comparative analysis of supervised ML algorithms for stroke prediction on imbalanced healthcare datasets. Used GridSearchCV, SMOTE balancing, and 5-fold CV; achieved 94.69% test accuracy with XGBoost.",
-      "liveLink": "https://ijsdr.org/viewpaperforall.php?paper=IJSDR2508152",
-      "githubLink": "",
+      "liveLink": "https://stroke-prediction-ml-27.streamlit.app/",
+      "githubLink": "https://github.com/SaiTejaMantha03/stroke-prediction",
       "isExpanded": false
     },
     {
@@ -131,7 +157,7 @@
       ],
       "description": "Architected a full-stack classifieds platform with advanced search, responsive frontend, custom admin dashboard, secure RESTful APIs, and view-count analytics.",
       "liveLink": "https://property-hub-gjav.onrender.com/",
-      "githubLink": "",
+      "githubLink": "https://github.com/SaiTejaMantha03/Property-Hub",
       "isExpanded": false
     }
   ],
