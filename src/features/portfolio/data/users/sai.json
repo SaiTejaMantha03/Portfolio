@@ -119,7 +119,7 @@
         "NLP"
       ],
       "description": "Built a spam classification pipeline using merged SMS/email datasets (~100k samples). Evaluated TF-IDF vectorization with Random Forest, XGBoost, SGDClassifier, and Logistic Regression; achieved ~94.3% accuracy and 0.93 F1-score.",
-      "liveLink": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173644065.34354272/v1",
+      "liveLink": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175760622.22984283/v1",
       "githubLink": "https://github.com/SaiTejaMantha03/Spam-Classifier",
       "isExpanded": false
     },
@@ -279,7 +279,7 @@
       "title": "Comparative Study of Machine Learning and Text Vectorization Techniques for Spam Detection",
       "publisher": "TechRxiv",
       "year": "2025",
-      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173644065.34354272/v1",
+      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175760622.22984283/v1",
       "description": "This paper presents a comparative analysis of machine learning algorithms — including Naive Bayes, SVM, Logistic Regression, and Random Forest — combined with text vectorization techniques such as TF-IDF and Count Vectorizer. The study evaluates their effectiveness in detecting spam messages across benchmark datasets, identifying optimal model-vectorizer pairings.",
       "keywords": [
         "Machine Learning",
